@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f5f5;
+  background-color: #49cee69a;
   color: #2d2c2c
 }
 
@@ -9,23 +9,65 @@ body {
 
 #main {
   margin: 0 auto;
+  text-align: center;
 }
 
-#cat {
-  padding: 1rem 0 1rem 0;
+h1 {
+    font-size: 80px;
+    color: brown;
 }
 
-#contact button {
-  cursor: pointer;
+.description {
+    list-style-position: inside;
+    font-size: xx-large;
+    font-family: Comic Sans MS, Arial, Helvetica;
+    color: rgb(220, 30, 245);
 }
 
-#cat img {
-  transition: 3s;
-  filter: brightness(60%);
+.videoButton {
+    width: 20%;
+    height: 15%;
+    font-size: 40px;
+    background-color: lightgreen;
+    color:rgb(219, 24, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-#cat img:hover {
-  cursor: wait;
-  transition: 0.3s;
-  filter: brightness(100%);
+.videoButton:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+
+p {
+    font-family: Comic Sans MS, Arial, Helvetica;
+    font-size: large;
+}
+
+#floatingFish1 {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+#floatingFish2 {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+#changeColorsButton {
+    width: 200px;
+    height: 100px;
+    background-color: #4caf50;
+    rotate: -45deg;
+    position: fixed;
+    font-family: sans-serif;
+    font-size: xx-large;
+    color:rgb(219, 24, 24);
+    bottom: 30%;
+    left: 25%;
+
 }
